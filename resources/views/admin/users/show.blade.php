@@ -2,7 +2,7 @@
 @section('title', 'User Details: ' . $user->name)
 @section('content')
 <!--begin::Profile 4-->
-<div class="d-flex flex-row">
+<div class="d-flex flex-row mt-15">
     <!--begin::Aside-->
     <div class="flex-row-auto offcanvas-mobile w-300px w-xl-350px" id="kt_profile_aside">
         <!--begin::Card-->

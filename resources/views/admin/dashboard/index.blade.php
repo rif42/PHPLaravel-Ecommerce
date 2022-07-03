@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content')
-    <div class="row">
+    <div class="row mt-15">
         <div class="col">
             <!--begin::Mixed Widget 1-->
             <div class="card card-custom bg-gray-100 card-stretch gutter-b">

@@ -7,7 +7,7 @@
 {{-- Content --}}
 @section('content')
 
-<div class="card card-custom">
+<div class="card card-custom mt-15">
     <div class="card-header">
         <div class="card-title">
             <span class="card-icon">

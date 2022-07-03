@@ -3,7 +3,7 @@
 @section('title', "Transaction Details: $transaction->code")
 
 @section('content')
-    <div class="d-flex flex-row">
+    <div class="d-flex flex-row mt-15">
         <!--begin::Layout-->
         <div class="flex-row-fluid ml-lg-8">
             <!--begin::Card-->

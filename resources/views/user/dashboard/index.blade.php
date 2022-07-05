@@ -52,17 +52,17 @@
                         @forelse($products as $product)
                             <!--begin::Product-->
                             <div class="col-md-2 col-lg-10 col-xl-3" >
-                                <div class="card card-custom gutter-b card-stretch" style="background-color:#3D3D3D;" >
-                                    <div class="card-body d-flex flex-column rounded justify-content-between text-center" style="background-color:#3D3D3D;">
+                                <div class="card card-custom gutter-b card-stretch" style="background-color:silver;" >
+                                    <div class="card-body d-flex flex-column rounded justify-content-between text-center" style="background-color:silver;">
                                         <div class="text-center rounded mb-4">
                                             <img src="{{ asset(Storage::url($product->photo)) }}" class="mw-100 w-200px">
                                         </div>
                                         <div>
                                             <h4 class="font-size-h4 ">
                                                 <a href="{{route('user.products.show', $product->slug)}}"
-                                                   class="text-light font-weight-bolder">{{$product->name}}</a>
+                                                   class="text-dark font-weight-bolder">{{$product->name}}</a>
                                             </h4>
-                                            <div class="font-size-h6 text-light font-weight-bolder">
+                                            <div class="font-size-h6 text-dark font-weight-bolder">
                                                 Rp{{number_format($product->price)}}</div>
                                         </div>
                                     </div>

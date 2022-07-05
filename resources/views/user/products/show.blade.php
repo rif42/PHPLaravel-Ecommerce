@@ -5,7 +5,7 @@
 
 {{-- Content --}}
 @section('content')
-    <div class="d-flex flex-row">
+    <div class="d-flex flex-row mt-15 ">
         <!--begin::Layout-->
         <div class="flex-row-fluid">
             <!--begin::Section-->
@@ -14,20 +14,20 @@
                     <!--begin::Engage Widget 14-->
                     <div class="card card-custom card-stretch gutter-b">
                         <div class="card-body p-15 pb-20">
-                            <div class="row mb-17">
+                            <div class="w-100 d-inline-flex justify-content-center mb-17">
                                 <div class="col-xxl-5 mb-11 mb-xxl-0">
                                     <!--begin::Image-->
                                     <div class="card card-custom card-stretch">
                                         <div
                                             class="card-body p-0 rounded px-10 py-15 d-flex align-items-center justify-content-center"
-                                            style="background-color: #FFCC69;">
+                                            style="background-color: white;">
                                             <img src="{{ asset(Storage::url($product->photo)) }}" class="mw-100 w-200px"
                                                  style="transform: scale(1.6);">
                                         </div>
                                     </div>
                                     <!--end::Image-->
                                 </div>
-                                <div class="col-xxl-7 pl-xxl-11">
+                                <div class="mt-20">
                                     <h2 class="font-weight-bolder text-dark mb-7"
                                         style="font-size: 32px;">{{$product->name}}</h2>
                                     <div class="font-size-h2 mb-7 text-dark-50">From
@@ -39,33 +39,33 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mb-6">
+                            <div class="w-100 d-inline-flex justify-content-center mb-6">
                                 <!--begin::Info-->
-                                <div class="col-6 col-md-4">
-                                    <div class="mb-8 d-flex flex-column">
+                                <div class="col-6 col-md-4 ">
+                                    <div class="mb-8 d-flex flex-column text-center">
                                         <span class="text-dark font-weight-bold mb-4">Category</span>
                                         <span
-                                            class="text-muted font-weight-bolder font-size-lg">{{$product->category->name}}</span>
+                                            class="text-dark font-weight-bolder font-size-lg">{{$product->category->name}}</span>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-4">
-                                    <div class="mb-8 d-flex flex-column">
+                                    <div class="mb-8 d-flex flex-column text-center">
                                         <span class="text-dark font-weight-bold mb-4">Price</span>
                                         <span
-                                            class="text-muted font-weight-bolder font-size-lg">Rp{{number_format($product->price)}}</span>
+                                            class="text-dark font-weight-bolder font-size-lg">Rp{{number_format($product->price)}}</span>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-4">
-                                    <div class="mb-8 d-flex flex-column">
+                                    <div class="mb-8 d-flex flex-column text-center">
                                         <span class="text-dark font-weight-bold mb-4">Stock</span>
                                         <span
-                                            class="text-muted font-weight-bolder font-size-lg">{{number_format($product->stock)}}</span>
+                                            class="text-dark font-weight-bolder font-size-lg">{{number_format($product->stock)}}</span>
                                     </div>
                                 </div>
                                 <!--end::Info-->
                             </div>
                             <!--begin::Buttons-->
-                            <form action="{{route('user.cart.store')}}" method="POST" class="d-inline">
+                            <form action="{{route('user.cart.store')}}" method="POST" class="w-100 d-inline-flex justify-content-center">
                                 @csrf
 
                                 <div class="d-flex">

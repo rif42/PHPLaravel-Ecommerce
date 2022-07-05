@@ -2,7 +2,7 @@
 @section('title', 'Change Password')
 @section('content')
 <!--begin::Card-->
-<div class="card card-custom">
+<div class="card card-custom mt-15">
     <!--begin::Header-->
     <div class="card-header py-3">
         <div class="card-title align-items-start flex-column">

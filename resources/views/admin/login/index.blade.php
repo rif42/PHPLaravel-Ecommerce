@@ -7,7 +7,7 @@
     <div class="login login-4 wizard d-flex flex-column flex-lg-row flex-column-fluid">
         <!--begin::Content-->
         <div class="login-container order-2 order-lg-1 d-flex flex-center flex-row-fluid px-7 pt-lg-0 pb-lg-0 pt-4 pb-6 bg-white bgi-no-repeat"
-        style="background-size:cover; overflow:hidden; background-position-x:center; background-image: url({{ asset('media/bg/darkscreen.jpg') }})">
+        style="background-size:cover; overflow:hidden; background-position-x:center; background-image: url({{ asset('pics/darkscreen.jpg') }})">
 
             <!--begin::Wrapper-->
             <div class="login-content d-flex flex-column pt-lg-0 pt-12"

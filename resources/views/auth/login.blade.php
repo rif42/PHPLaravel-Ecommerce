@@ -10,7 +10,7 @@
 
         <!--begin::Content-->
         <div class="login-content flex-row-fluid d-flex flex-column p-10 bgi-no-repeat"
-        style="background-size:cover; background-position-x:center; background-image: url({{ asset('media/bg/lightscreen.jpg') }})">
+        style="background-size:cover; background-position-x:center; background-image: url({{ asset('pics/lightscreen.jpg') }})">
             <!--begin::Top-->
             <div class="text-right d-flex justify-content-center">
                 <div class="top-signin text-right d-flex justify-content-end pt-5 pb-lg-0 pb-10">

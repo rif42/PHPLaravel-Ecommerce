@@ -14,7 +14,7 @@
                     <!--begin::Engage Widget 15-->
                     <div class="card card-custom gutter-b bg-dark">
                         <div class="card-body rounded d-flex bgi-no-repeat bgi-position-y-center bgi-position-x-left bgi-size-cover "
-                        style="background-image: url({{asset('media/bg/searchbar.png')}})">
+                        style="background-image: url({{asset('pics/searchbar.png')}})">
                                 <!--begin::Form-->
                             <form class="d-flex flex-center my-10 py-2 px-6 w-100 bg-white rounded">
 
